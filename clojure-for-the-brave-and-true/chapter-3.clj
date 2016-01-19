@@ -39,6 +39,18 @@
 
 (full-name {:first-name "John" :last-name "Smith"})
 
+(def john {:name {:first-name "John" :last-name "Smith"} :age 26})
+
+(get-in john [:name :first-name])
+
+(assoc {} :name "John" :age 24)
+
+(range 5)
+
+(range 1 5)
+
+
+
 
 
 
